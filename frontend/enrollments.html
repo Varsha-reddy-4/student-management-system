@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Enrollments</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>SMS</h2>
+
+<a href="index.html">Dashboard</a>
+<a href="students.html">Students</a>
+<a href="courses.html">Courses</a>
+<a href="enrollments.html">Enrollments</a>
+<a href="attendance.html">Attendance</a>
+
+</div>
+
+<div class="main">
+
+<h1>Enroll Student to Course</h1>
+
+<form id="enrollForm">
+
+<input type="number" id="student_id" placeholder="Student ID">
+
+<input type="number" id="course_id" placeholder="Course ID">
+
+<button type="submit">Enroll</button>
+
+</form>
+
+<h2>Enrollment List</h2>
+
+<table border="1">
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Student</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody id="enrollTable"></tbody>
+
+</table>
+
+</div>
+
+<script src="js/enrollments.js"></script>
+
+</body>
+</html>
